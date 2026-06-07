@@ -15,6 +15,8 @@ the rubber band will be always under tension and pulling the piston out for more
 # schematics
 <img width="1231" height="712" alt="Screenshot 2026-06-05 203410" src="https://github.com/user-attachments/assets/0cbac7c1-e30d-41df-8459-a59654ee432e" />
 the arduino will be connected to the power supply and the motor driver to control the motor
+
 # firmware
+
 i included a simple arduino script that tells the stepper motor forrwards or backwards to push and pull the piston<img width="685" height="414" alt="Screenshot 2026-06-05 203426" src="https://github.com/user-attachments/assets/eec0887b-556a-4863-9db1-aeb640b39ab9" />
 # zine
