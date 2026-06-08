@@ -20,3 +20,5 @@ the arduino will be connected to the power supply and the motor driver to contro
 
 i included a simple arduino script that tells the stepper motor forrwards or backwards to push and pull the piston<img width="685" height="414" alt="Screenshot 2026-06-05 203426" src="https://github.com/user-attachments/assets/eec0887b-556a-4863-9db1-aeb640b39ab9" />
 # zine
+
+<img width="225" height="225" alt="téléchargement__6_-removebg-preview" src="https://github.com/user-attachments/assets/540472a8-e72a-45e8-9826-e546ccd6ccc8" />
