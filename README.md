@@ -1,5 +1,5 @@
 # minecraft-piston-irl
-minecraft inspired piston for hackclub fallout. i saw the jukebox project that someone made for hackclub so i thought i could do something similar by making the piston, the most important part of minecraft redstone, in real life by using some rubber bands, a clever designn znd some electronics to make it to fruition. you can program the arduino to make the piston either push forwards or pull backwards.
+minecraft inspired piston for hackclub fallout. i saw the jukebox project that someone made for hackclub so i thought i could do something similar by making the piston, the most important part of minecraft redstone, in real life by using some rubber bands, a clever design and some electronics to make it to fruition. you can program the arduino to make the piston either push forwards or pull backwards.
 <img width="753" height="508" alt="image" src="https://github.com/user-attachments/assets/05e11747-7803-4456-acbe-c8c680db222d" />
 # premise
 the rubber band will be always under tension and pulling the piston out for more explosivity and the stepper motor will be the one to pull it back with a string attached using its high torque capabilities 
