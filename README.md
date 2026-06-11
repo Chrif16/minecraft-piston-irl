@@ -27,5 +27,14 @@ i included a simple arduino script that tells the stepper motor forrwards or bac
 
 # BOM
 
+-arduino nano x1
+-L289N motor driver x1
+-stepper motor 28BYJ-48 x1
+-spool x1
+-string x1
+-AA battery holder x1
+-Jumper wires
+-rubber bands x4
+-screws x16
 
 
