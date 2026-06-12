@@ -610,7 +610,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "MCU_Module:Arduino_UNO_R3"
+		(symbol "MCU_Module:Arduino_Nano_v3.x"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -623,8 +623,8 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "Arduino_UNO_R3"
-				(at 5.08 -26.67 0)
+			(property "Value" "Arduino_Nano_v3.x"
+				(at 5.08 -24.13 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -632,7 +632,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "Module:Arduino_UNO_R3"
+			(property "Footprint" "Module:Arduino_Nano"
 				(at 0 0 0)
 				(effects
 					(font
@@ -642,7 +642,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.arduino.cc/en/Main/arduinoBoardUno"
+			(property "Datasheet" "http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -651,7 +651,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Arduino UNO Microcontroller Module, release 3"
+			(property "Description" "Arduino Nano v3.x"
 				(at 0 0 0)
 				(effects
 					(font
@@ -660,7 +660,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "Arduino UNO R3 Microcontroller Module Atmel AVR USB"
+			(property "ki_keywords" "Arduino nano microcontroller module USB"
 				(at 0 0 0)
 				(effects
 					(font
@@ -669,7 +669,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Arduino*UNO*R3*"
+			(property "ki_fp_filters" "Arduino*Nano*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -678,10 +678,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "Arduino_UNO_R3_0_1"
+			(symbol "Arduino_Nano_v3.x_0_1"
 				(rectangle
 					(start -10.16 22.86)
-					(end 10.16 -25.4)
+					(end 10.16 -22.86)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -691,7 +691,7 @@
 					)
 				)
 			)
-			(symbol "Arduino_UNO_R3_1_1"
+			(symbol "Arduino_Nano_v3.x_1_1"
 				(pin bidirectional line
 					(at -12.7 15.24 0)
 					(length 2.54)
@@ -702,7 +702,7 @@
 							)
 						)
 					)
-					(number "15"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -720,7 +720,7 @@
 							)
 						)
 					)
-					(number "16"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -738,7 +738,7 @@
 							)
 						)
 					)
-					(number "17"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -756,7 +756,7 @@
 							)
 						)
 					)
-					(number "18"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -774,7 +774,7 @@
 							)
 						)
 					)
-					(number "19"
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -792,7 +792,7 @@
 							)
 						)
 					)
-					(number "20"
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -810,7 +810,7 @@
 							)
 						)
 					)
-					(number "21"
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -828,7 +828,7 @@
 							)
 						)
 					)
-					(number "22"
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -846,7 +846,7 @@
 							)
 						)
 					)
-					(number "23"
+					(number "11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -864,7 +864,7 @@
 							)
 						)
 					)
-					(number "24"
+					(number "12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -882,7 +882,7 @@
 							)
 						)
 					)
-					(number "25"
+					(number "13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -900,7 +900,7 @@
 							)
 						)
 					)
-					(number "26"
+					(number "14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -918,7 +918,7 @@
 							)
 						)
 					)
-					(number "27"
+					(number "15"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -936,26 +936,7 @@
 							)
 						)
 					)
-					(number "28"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -10.16 -20.32 0)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
+					(number "16"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -973,7 +954,7 @@
 							)
 						)
 					)
-					(number "8"
+					(number "30"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -982,7 +963,7 @@
 					)
 				)
 				(pin power_in line
-					(at -2.54 -27.94 90)
+					(at 0 -25.4 90)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -991,25 +972,7 @@
 							)
 						)
 					)
-					(number "29"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -27.94 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1027,7 +990,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "17"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1036,7 +999,7 @@
 					)
 				)
 				(pin power_in line
-					(at 2.54 -27.94 90)
+					(at 2.54 -25.4 90)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -1045,7 +1008,7 @@
 							)
 						)
 					)
-					(number "7"
+					(number "29"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1063,7 +1026,7 @@
 							)
 						)
 					)
-					(number "5"
+					(number "27"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1081,7 +1044,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "28"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1089,17 +1052,17 @@
 						)
 					)
 				)
-				(pin output line
-					(at 12.7 10.16 180)
+				(pin input line
+					(at 12.7 12.7 180)
 					(length 2.54)
-					(name "IOREF"
+					(name "~{RESET}"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "2"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1117,7 +1080,7 @@
 							)
 						)
 					)
-					(number "30"
+					(number "18"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1135,7 +1098,7 @@
 							)
 						)
 					)
-					(number "9"
+					(number "19"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1153,7 +1116,7 @@
 							)
 						)
 					)
-					(number "10"
+					(number "20"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1171,7 +1134,7 @@
 							)
 						)
 					)
-					(number "11"
+					(number "21"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1189,7 +1152,7 @@
 							)
 						)
 					)
-					(number "12"
+					(number "22"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1200,14 +1163,14 @@
 				(pin bidirectional line
 					(at 12.7 -10.16 180)
 					(length 2.54)
-					(name "SDA/A4"
+					(name "A4"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "13"
+					(number "23"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1218,14 +1181,32 @@
 				(pin bidirectional line
 					(at 12.7 -12.7 180)
 					(length 2.54)
-					(name "SCL/A5"
+					(name "A5"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "14"
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -15.24 180)
+					(length 2.54)
+					(name "A6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1236,32 +1217,14 @@
 				(pin bidirectional line
 					(at 12.7 -17.78 180)
 					(length 2.54)
-					(name "SDA/A4"
+					(name "A7"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "31"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 -20.32 180)
-					(length 2.54)
-					(name "SCL/A5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "32"
+					(number "26"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1666,6 +1629,106 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "95b5d4b8-93bc-45de-b721-2619b386fb03")
+	)
+	(no_connect
+		(at 82.55 77.47)
+		(uuid "073f09bc-4f7e-49c0-9c02-0b70e11fd76b")
+	)
+	(no_connect
+		(at 64.77 100.33)
+		(uuid "1542a29a-9c8a-4a37-9f20-1ad9dedf0b4b")
+	)
+	(no_connect
+		(at 80.01 77.47)
+		(uuid "238d6aa8-baf1-487d-82b5-6c17000736c0")
+	)
+	(no_connect
+		(at 90.17 90.17)
+		(uuid "2cbd62a2-0b4f-4dd6-875e-36aaa12a94f9")
+	)
+	(no_connect
+		(at 90.17 120.65)
+		(uuid "343354ef-f084-4a99-86aa-3e7da748879e")
+	)
+	(no_connect
+		(at 90.17 107.95)
+		(uuid "3ac35ae9-2134-45c6-b305-4cda36527416")
+	)
+	(no_connect
+		(at 64.77 87.63)
+		(uuid "3e94e2be-b6b6-48da-9321-1dbea2546b44")
+	)
+	(no_connect
+		(at 77.47 128.27)
+		(uuid "50bed820-8da5-4cc9-8f90-5f8983a917e3")
+	)
+	(no_connect
+		(at 133.35 119.38)
+		(uuid "55566b69-5ba4-4c72-b779-e39764f31524")
+	)
+	(no_connect
+		(at 64.77 105.41)
+		(uuid "59bc9ec5-133d-4351-beaf-d1aa37417a9f")
+	)
+	(no_connect
+		(at 64.77 95.25)
+		(uuid "659ebc47-fc18-438e-ac75-46211e848a60")
+	)
+	(no_connect
+		(at 90.17 105.41)
+		(uuid "941dfe5c-ae1e-4cb1-9fd6-a7f15bc7885f")
+	)
+	(no_connect
+		(at 64.77 97.79)
+		(uuid "9606bab3-0239-474a-b908-b075e0ed8022")
+	)
+	(no_connect
+		(at 90.17 97.79)
+		(uuid "9944147a-b409-41f5-ae35-0a6b72aced86")
+	)
+	(no_connect
+		(at 90.17 87.63)
+		(uuid "99822c06-06ba-492f-a5f7-e4ee16d5ab6a")
+	)
+	(no_connect
+		(at 64.77 92.71)
+		(uuid "9dc8d9ea-374e-40f5-94f4-b31c7ba963c8")
+	)
+	(no_connect
+		(at 90.17 110.49)
+		(uuid "9f940e14-0677-4687-971b-4502a3600aed")
+	)
+	(no_connect
+		(at 90.17 115.57)
+		(uuid "a716c639-b418-415b-9191-e073bc8db5e9")
+	)
+	(no_connect
+		(at 64.77 90.17)
+		(uuid "ab54d3fc-84ff-4bbe-bdba-81eeff2bcd21")
+	)
+	(no_connect
+		(at 90.17 113.03)
+		(uuid "b1b4356f-991e-4ab0-ba81-930904d030bb")
+	)
+	(no_connect
+		(at 130.81 119.38)
+		(uuid "b3cabfbd-f67e-486c-af38-15432ef67f52")
+	)
+	(no_connect
+		(at 64.77 102.87)
+		(uuid "c588a2e8-6070-40d8-8a31-4e4ae7f55171")
+	)
+	(no_connect
+		(at 90.17 102.87)
+		(uuid "ccbab9df-c1cb-4f3f-bbcb-9bdfa7b52b9c")
+	)
+	(no_connect
+		(at 140.97 83.82)
+		(uuid "d2b44590-6bc8-40be-98ea-fda9a2cdba92")
+	)
+	(no_connect
+		(at 90.17 118.11)
+		(uuid "e593066d-6993-4e44-8fb6-13e77cffd90c")
 	)
 	(wire
 		(pts
@@ -2119,7 +2182,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 130.81) (xy 80.01 135.89)
+			(xy 80.01 128.27) (xy 80.01 135.89)
 		)
 		(stroke
 			(width 0)
@@ -2196,167 +2259,6 @@
 			(type default)
 		)
 		(uuid "fa96ec97-4341-40fd-9bac-903ab7bf557e")
-	)
-	(symbol
-		(lib_id "MCU_Module:Arduino_UNO_R3")
-		(at 77.47 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "19b0415b-3db8-4b96-bd58-537575a00c65")
-		(property "Reference" "A1"
-			(at 84.6933 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Arduino_UNO_R3"
-			(at 84.6933 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Module:Arduino_UNO_R3"
-			(at 77.47 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.arduino.cc/en/Main/arduinoBoardUno"
-			(at 77.47 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Arduino UNO Microcontroller Module, release 3"
-			(at 77.47 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "27"
-			(uuid "39381cc6-b035-4607-8e3d-a569c5144d2a")
-		)
-		(pin "15"
-			(uuid "02a324aa-a91a-461a-90fe-e59ffdbb1559")
-		)
-		(pin "16"
-			(uuid "f1786212-ccbf-446e-a3ae-094fa9b031fe")
-		)
-		(pin "18"
-			(uuid "4aca7244-0b20-460c-ae82-9d3bc6102024")
-		)
-		(pin "19"
-			(uuid "89d09358-3ccb-4b54-b0a9-16e31ee6a8da")
-		)
-		(pin "17"
-			(uuid "278ceb0b-fcf1-47c1-a378-c015296c6e38")
-		)
-		(pin "20"
-			(uuid "816229e1-5cbb-4526-aba8-6c0b436c63f0")
-		)
-		(pin "21"
-			(uuid "53327948-6e47-45fd-9f62-897cde0f7c7a")
-		)
-		(pin "22"
-			(uuid "f03f5bc9-aff5-4f3e-80ff-4252e6353b75")
-		)
-		(pin "23"
-			(uuid "1cfc2b08-ad8e-4487-9c43-dd543f336f49")
-		)
-		(pin "24"
-			(uuid "3efee9d7-a8aa-4c28-8bd3-06473c14f32c")
-		)
-		(pin "25"
-			(uuid "4eec6f04-6cef-4848-98e1-ebd642ff811b")
-		)
-		(pin "26"
-			(uuid "d9d66e2c-f33e-4ec7-972a-c686247b4fe1")
-		)
-		(pin "28"
-			(uuid "4506060e-edf6-4b25-8595-826263b2565f")
-		)
-		(pin "1"
-			(uuid "94850a12-d426-4d24-aa4c-68cbe727909b")
-		)
-		(pin "29"
-			(uuid "ad1daaf7-2d6c-4255-9126-33e9a96437cd")
-		)
-		(pin "8"
-			(uuid "d75a71bd-729b-45a6-bbd0-61600d1edc4d")
-		)
-		(pin "6"
-			(uuid "9f682d47-40fc-4659-ad16-fb0de7c05689")
-		)
-		(pin "4"
-			(uuid "3fc65b07-bf5c-4ffc-a142-2c797c269d96")
-		)
-		(pin "7"
-			(uuid "54d8ec7d-1d44-4473-b4b7-88cf43401358")
-		)
-		(pin "5"
-			(uuid "169d1010-86bb-488d-9918-6b504ee63ec8")
-		)
-		(pin "3"
-			(uuid "760765f7-a4d4-4c17-b1a4-ee3c54888d8c")
-		)
-		(pin "2"
-			(uuid "7028e977-b713-40ad-851d-afd706ecc368")
-		)
-		(pin "10"
-			(uuid "a5f11162-3905-437c-baef-e84804c257bc")
-		)
-		(pin "32"
-			(uuid "938d1f63-4d0f-41ce-be88-6dee46bccacb")
-		)
-		(pin "12"
-			(uuid "04ed3787-1e27-4d83-bffd-6a708af86d3c")
-		)
-		(pin "9"
-			(uuid "97df7672-f183-40af-b1e1-6d5d7d581249")
-		)
-		(pin "13"
-			(uuid "408fffc5-28a3-42ff-926a-eee0713d9230")
-		)
-		(pin "31"
-			(uuid "213d66cf-95cb-4fae-8a6a-cccf81372625")
-		)
-		(pin "30"
-			(uuid "259b2a8f-7830-4590-b708-c451a2da23e9")
-		)
-		(pin "14"
-			(uuid "0546f8a9-355b-4418-b1c8-8a49e3efec8a")
-		)
-		(pin "11"
-			(uuid "d73bf591-9192-42bc-8c39-a64a315d2b47")
-		)
-		(instances
-			(project ""
-				(path "/2a9eda48-4c16-4c49-af6a-ed57d40ffe42"
-					(reference "A1")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Driver_Motor:L298N")
@@ -2560,6 +2462,161 @@
 			(project ""
 				(path "/2a9eda48-4c16-4c49-af6a-ed57d40ffe42"
 					(reference "BT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MCU_Module:Arduino_Nano_v3.x")
+		(at 77.47 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "81e8d13f-5479-44f8-b2d1-ccc174c36e4e")
+		(property "Reference" "A1"
+			(at 82.1533 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Arduino_Nano_v3.x"
+			(at 82.1533 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Module:Arduino_Nano"
+			(at 77.47 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf"
+			(at 77.47 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Arduino Nano v3.x"
+			(at 77.47 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "15"
+			(uuid "606d8067-7d89-4369-902e-79ef9b42e4d7")
+		)
+		(pin "18"
+			(uuid "6e155b5e-b605-4529-846a-c74db5b13dea")
+		)
+		(pin "22"
+			(uuid "97596169-43dd-4990-bda3-26061429bfce")
+		)
+		(pin "7"
+			(uuid "b65e1bde-a76d-4244-8c5b-818664501e0d")
+		)
+		(pin "25"
+			(uuid "7ecae18d-77d3-4836-baac-c27cebc5b736")
+		)
+		(pin "29"
+			(uuid "6075d84c-b2a5-4371-aa13-0f4ff04e88ab")
+		)
+		(pin "19"
+			(uuid "351eae71-f9ae-429c-8e80-a0e581586c93")
+		)
+		(pin "3"
+			(uuid "fb2aecc9-3ed0-48a4-9d3f-4cd000584c7e")
+		)
+		(pin "13"
+			(uuid "8a02eee3-de97-420d-82c5-dbb37c1d21a3")
+		)
+		(pin "14"
+			(uuid "eeb06ea5-dcf7-4130-8f52-32bfa6ced67b")
+		)
+		(pin "16"
+			(uuid "c6097b66-32d5-44ef-ba49-1e2a4965be9f")
+		)
+		(pin "27"
+			(uuid "bb678bda-5010-46f4-8cba-8a11a6d17131")
+		)
+		(pin "10"
+			(uuid "f695e5b4-e212-4109-af79-25bf7dc80e6d")
+		)
+		(pin "5"
+			(uuid "4561c0b7-eeda-4c35-880d-2f86198c0804")
+		)
+		(pin "9"
+			(uuid "44fd1fa3-ce98-4562-a122-39de14c7d076")
+		)
+		(pin "11"
+			(uuid "9eca7aa0-3e6d-4637-b526-c78287a7a8f3")
+		)
+		(pin "8"
+			(uuid "5e99c65c-323d-4687-833f-3d7cbad3ba82")
+		)
+		(pin "2"
+			(uuid "5c810c32-79be-4628-a0fb-316e54e1106c")
+		)
+		(pin "1"
+			(uuid "fda34131-4b71-4add-a152-439a8386d6d8")
+		)
+		(pin "20"
+			(uuid "490875fb-fb9c-4a53-a288-6e9c85c9cc6a")
+		)
+		(pin "6"
+			(uuid "4e42d7f4-360c-4b9d-b5a7-b9dcbf8ce448")
+		)
+		(pin "12"
+			(uuid "41959dc1-8009-4d37-80f3-bfd26541f0e8")
+		)
+		(pin "30"
+			(uuid "0f010921-be94-4b07-bad5-21ea222c5ed8")
+		)
+		(pin "17"
+			(uuid "9663825d-c459-42ef-8d51-563c8151ef51")
+		)
+		(pin "4"
+			(uuid "5042a49e-f170-41c6-ab86-ac3553597d47")
+		)
+		(pin "28"
+			(uuid "c79099a5-61bb-487d-9309-4decd204f24d")
+		)
+		(pin "21"
+			(uuid "23a990b5-6de8-4066-a6f6-eb535404e788")
+		)
+		(pin "23"
+			(uuid "02dfe86c-04ec-49c5-b4d7-449d9adf7ef8")
+		)
+		(pin "24"
+			(uuid "71055127-c679-4982-9c68-f7fed99cc85f")
+		)
+		(pin "26"
+			(uuid "073f8b25-e7a1-4f7a-80ef-79147b9283f2")
+		)
+		(instances
+			(project ""
+				(path "/2a9eda48-4c16-4c49-af6a-ed57d40ffe42"
+					(reference "A1")
 					(unit 1)
 				)
 			)
