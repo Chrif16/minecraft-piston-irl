@@ -39,7 +39,7 @@ i included a simple arduino script that tells the stepper motor forrwards or bac
 
 # How to build:
 
-For screws and similar items, it is recommended to find the cheapest in your location. 3d print the case files in the cad folder, flash your arduino nano with the firmware file in the corresponding folder then screw the parts in place on the the lid after making sure they fit. for the rubber band,pass it through the corner handles and the handle on the piston leg then tie a knot on both sides, then tie the string on the spool and tie the other side to the handle on the piston leg, then screw the lid shut. 
+For screws and similar items, it is recommended to find the cheapest in your location. 3d print the case files in the cad folder, flash your arduino nano with the firmware file in the corresponding folder then screw the parts in place on the the lid after making sure they fit.then solder or plug the cables into the components. for the rubber band,pass it through the corner handles and the handle on the piston leg then tie a knot on both sides, then tie the string on the spool and tie the other side to the handle on the piston leg, then screw the lid shut. 
 
 
 
